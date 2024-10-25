@@ -2,14 +2,16 @@
 
 import React from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 
 const home = () => {
   return (
+    <Header/>
     <div className="max-w-md mx-auto p-5">
       <div className="flex items-center justify-between h-11 py-3 px-5 text-black">
         
       </div>
-      <Header/>
+      
 
       <div className="text-center my-5 relative">
         <div className="relative rounded-3xl overflow-hidden shadow-lg bg-gradient-to-br from-[#4CE5B1] to-[#3CCEA0] transition-transform duration-300 transform hover:translate-y-[-5px]">
@@ -64,6 +66,7 @@ const home = () => {
         </a>
       </div>
     </div>
+    <Footer/>
   );
 };
 
